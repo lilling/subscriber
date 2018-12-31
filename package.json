@@ -1,6 +1,6 @@
 {
   "name": "@lilling/subscriber",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "release": "standard-version"

@@ -1,9 +1,10 @@
 {
   "name": "@lilling/subscriber",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
-    "release": "standard-version"
+    "release": "standard-version",
+    "br": "./node_modules/.bin/tsc && standard-version"
   },
   "repository": {
     "type": "git",

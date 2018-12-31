@@ -1,4 +1,27 @@
 {
-	"name": "@lilling/subscriber",
-	"version": "1.0.0"
+  "name": "@lilling/subscriber",
+  "version": "1.0.2",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilling/subscriber.git"
+  },
+  "keywords": [
+    "subscription",
+    "subscriptions",
+    "angular"
+  ],
+  "author": "Yonatan Lilling <yonatanliling@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/core": "^7.1.4",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2",
+    "standard-version": "^4.4.0"
+  }
 }
